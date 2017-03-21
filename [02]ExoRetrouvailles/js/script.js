@@ -59,6 +59,23 @@ function dialogue(){
     var contexte = document.getElementById('character_01');
     var paroles = data.perso_0.texte;
   }
+  if(index%3 == 0 && index ! == 0){
+    var jerry = document.getElementById('character_01')
+   jerry =  jerry.getElementsByTagName ('img')[0]
+    console.log(jerry);
+
+    var image2= data.perso_0.picture[1]
+    // image2 = imag
+    jerry.src = image2
+  }
+  else if (index %7 == 0 ){
+    var jerry = document.getElementById('character_01')
+   jerry =  jerry.getElementsByTagName ('img')[0]
+    console.log(jerry);
+
+  } {
+
+  }
   var dom = contexte.getElementsByClassName('center'); //--> Renvoie un tableau
   dom[0].innerHTML = paroles[ index%3 ];
   index++;

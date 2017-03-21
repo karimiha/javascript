@@ -6,10 +6,12 @@
 
 body{
   font-family: 'Source Code Pro', monospace;
+  background-color: brown;
   }
   h3{
     text-align: center;
     text-transform: uppercase;
+    background-color: pink;
   }
 
   img{
@@ -51,7 +53,7 @@ body{
   #character_01 .center {
     margin-left: 17vw;
     left: 0;
-    max-width: 184px;
+    max-width: 100px;
   }
 
 
