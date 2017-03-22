@@ -1,0 +1,68 @@
+.flyer{
+  background-image: url('../img/sprite1.jpg');
+  height:300px;
+  width:335px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation-name: flyer;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+/*#fly2 div{
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+}
+*/
+
+.jump{
+  background-image: url('../img/bird0.jpg');
+  height:300px;
+  width:335px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation-name: flyer;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1
+  position:relative;
+  bottom: 0;
+}
+
+
+body{
+  background-image: url('../img/ciel.jpg');
+}
+
+@keyframes flyer {
+  0%{
+    background-image: url('../img/sprite0.jpg');
+  }
+  25%{
+    background-image: url('../img/sprite1.jpg');
+  }
+  50% {background-image: url('../img/sprite2.jpg');
+ }
+ 75%{
+  background-image: url('../img/sprite3.jpg');
+ }
+ 100%{
+  background-image: url('../img/sprite4.jpg');
+ }
+ }
+ @keyframes jump {
+   0%{
+     background-image: url('../img/bird0.jpg');
+   }
+   25%{
+     background-image: url('../img/bird1.jpg');
+   }
+   50% {background-image: url('../img/bird2.jpg');
+  }
+  75%{
+   background-image: url('../img/bird3.jpg');
+  }
+  100%{
+   background-image: url('../img/bird4.jpg');
+  }
+  
